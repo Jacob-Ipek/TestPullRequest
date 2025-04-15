@@ -6,10 +6,17 @@ namespace TestProject1
     public sealed class Test1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestSumme()
         {
             Taschenrechner taschenrechner = new Taschenrechner();
             Assert.AreEqual(2, taschenrechner.Summe(1, 1));
+        }
+
+        [TestMethod]
+        public void TestDifferenz()
+        {
+            Taschenrechner taschenrechner = new Taschenrechner();
+            Assert.AreEqual(0, taschenrechner.Differenz(1, 1));
         }
     }
 }
