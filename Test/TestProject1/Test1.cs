@@ -16,7 +16,7 @@ namespace TestProject1
         public void TestDifferenz()
         {
             Taschenrechner taschenrechner = new Taschenrechner();
-            Assert.AreEqual(0, taschenrechner.Differenz(1, 1));
+            Assert.AreEqual(3, taschenrechner.Differenz(1, 1));
         }
     }
 }
